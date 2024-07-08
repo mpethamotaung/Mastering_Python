@@ -45,6 +45,5 @@ if choice1 == "left":
             print("You didn't choose any door. Game over")
     else:
         print("Game Over")
-
 else:
     print(" Game over")
