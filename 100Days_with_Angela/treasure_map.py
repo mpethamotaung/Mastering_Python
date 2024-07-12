@@ -9,6 +9,7 @@ position = input("Add letter A,B,C followed by 1,2,3 (exampl: A1)") #Where do yo
 
 letter = position[0].lower() #Grab first letter and make it lowercase
 abc = ['a','b','c'] #List that presents the three possible letters
+letter_index = abc.index(letter) #create a variable letter_index assign it to abc our list .index(letter)
 
 
 print(f'{line1}\n{line2}\n{line3}')
