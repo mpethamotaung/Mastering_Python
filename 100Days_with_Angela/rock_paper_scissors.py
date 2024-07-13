@@ -31,7 +31,6 @@ scissors ="""
 """
 import random
 
-user_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: ")
-choice = ['Rock', 'Paper', 'Scissors']
-computer_choice = random.randint() 
-
+user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors: "))
+choice =   ['Rock', 'Paper', 'Scissors']
+computer_choice = random.randint(choice[1]-1) 
